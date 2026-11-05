@@ -10,7 +10,10 @@ Codex 风格的过程播报：让 agent 在工具调用之间用正文说明「�
 ## 安装
 
 ```sh
+# 从 npm / 本地目录
 dsh plugin --profile desktop add file:/path/to/dsh-think-flow
+# 或直接从 GitHub
+dsh plugin --profile desktop add github:leafwithmoon/dsh-think-flow
 ```
 
 安装后重启一次 DSH（或在该插件卡片上关→开触发重组），客户端半侧才会加载。
