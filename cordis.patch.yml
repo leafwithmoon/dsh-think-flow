@@ -1,0 +1,7 @@
+# dsh-think-flow bundle patch
+#
+# Manual mount line. `dsh plugin add` reconciles the profile bundle stack from
+# package.json's dsh.bundle declaration; when mounting by hand, keep this row.
+- insert:
+    - id: think-flow
+      name: 'dsh-think-flow'
